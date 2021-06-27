@@ -1,0 +1,384 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: content-box;
+
+}
+html {
+    overflow-x: hidden;
+    
+  }
+ /* navlogoimg */
+ .d-inline-block {
+    display: inline-block!important;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+/* menuitems */
+.navbar-dark .navbar-nav .nav-link {
+        /* color: rgba(255,255,255,.5); */
+        padding: 12px 22px;
+        margin: 6px 11px;
+        background-color: rgba(116, 111, 111, 0.918);
+        font-size: 17px;
+        font-weight: 700;
+        /* color: green; */
+        border-radius: 11px;
+        font-family: 'Sansita Swashed', cursive;
+}
+
+.bg-dark {
+    background-color: #41424438!important;
+}
+.navbar-dark .navbar-nav .nav-link:hover{
+    background-color: green;
+    font-weight: bolder;
+    font-size: 20px;
+    cursor: pointer;
+}
+/* //dropdownmenu */
+.dropdown-menu{
+    background-color: rgba(31, 63, 31, 0.712);
+    font-family: 'Sansita Swashed', cursive;
+    font-weight: bolder;
+    font-size: 18px;
+    color: black;
+}
+.btn{
+    margin-left:12px ;
+    font-family: 'Sansita Swashed', cursive;
+    font-weight: 500;
+    font-size: 18px;
+}
+.btn :hover{
+    size: 18px;
+}
+.navbg {
+    content: "";
+    background-image: url("../media/silder\ \(1\).jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    height: 119%; 
+    z-index: -1;
+    opacity: 0.7;
+   
+  
+}
+.coverimgtext h1 {
+    font-family: 'Sansita Swashed', cursive;
+    font-style: italic;
+    color: rgb(255, 255, 255);
+    margin: 150px 74px;
+    font-size: 60px;
+}
+.coverimgtext h1 :hover {
+    margin-left: 22px;
+    cursor: pointer;
+}
+.coverimgtext button {
+    border-radius: 18px;
+    position: relative;
+    top: -105px;
+    left: 105px;
+}
+.bgcolor{
+    text-shadow: 5px 9px 4px #1bff00;
+    font-size: 65px;
+    
+}
+.trainer {
+    position: relative;
+    top: 162px;
+}
+.trainer h1 {
+    font-family: 'Molle', cursive;
+    text-align: center;
+    font-size: 42px;
+    text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
+.card-title{
+    font-family: 'Sansita Swashed', cursive;
+    font-style: italic;
+    text-align: center;
+    font-size: 30px; 
+     text-shadow: 0 0 3px #FF0000;
+    font-weight: bold;
+}
+.card {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 0px solid rgba(0, 0, 0, 0);
+    
+}
+
+.card img {
+    width: 350px;
+    height: 350px;
+    border-radius: 22px !important;
+    cursor: pointer;
+    display: flex;
+    margin:10px 63px ;
+    box-shadow: 20px 20px 10px rgba(16, 71, 35, 0.445);
+}
+
+/* .card :hover{
+    margin-right: 20px !important; 
+    box-shadow: 20px 20px 10px rgba(173, 53, 17, 0.281);
+} */
+.accord_slider{
+
+    position: relative;
+    top: 220px;
+    background-color: rgba(128, 128, 128, 0.158);
+ 
+}
+.accord-cardbody{ 
+    background-color: rgb(26, 13, 13);
+    background-color: rgb(19 15 15 / 74%);
+    color: whitesmoke;
+}
+.h1accord h1 {
+    position: relative;
+    top: 206px;
+    font-family: 'Sansita Swashed', cursive;
+    font-style: italic;
+    font-size: 51px;
+    text-shadow: 5px 5px 3px #45d022;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 22px;
+
+}
+.accordion{
+   
+    position: relative;
+    top: 130px;
+    height: fit-content;
+}
+.accordion>.card {
+    overflow: visible;
+    position: relative;
+    top: -250px;
+    height: fit-content;
+}
+/* .carousel-item2 {
+    
+    margin: 12px 3px;
+} */
+.carousel-caption  h5{
+    font-family: 'Sansita Swashed', cursive;
+    font-style: italic;
+    font-size: 31px;
+    text-shadow: 5px 5px 3px #45d022;
+    font-weight: bold;
+    
+}
+.aboutcont{
+    padding-left: 32px;
+    position: relative;
+    top: 241px;
+}
+.abouttext{
+    background-color: black;
+    color: white;
+padding:82px 12px
+}
+.abouttext h4{
+    font-family: 'Sansita Swashed', cursive;
+    font-size: 31px;
+}
+.abouttext hr{
+    width: 20%;
+    size: 12px;
+    color: goldenrod;
+}
+.abouttext h1{
+    font-family: 'Castoro', serif;
+    font-size: 45px;
+}
+.abouttext p{
+    padding: 12px 52px;
+    line-height: 1.7;
+}
+.aboutnum h1{
+    font-family: 'Castoro', serif;
+    font-size: 95px;
+    margin: 34px 12px;
+    text-shadow: 5px 5px 3px #45d022;
+}
+.testominals{
+ 
+    background-image: url("../media/bodybulidng.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right;
+    padding-top: 200px;
+    padding-bottom: 150px;
+    position: relative;
+    top: 240px;
+    color: white;
+
+}
+.testominals h1{
+    font-family: 'Castoro', serif;
+    font-size: 55px;
+    margin: 34px 12px;
+    text-shadow: 5px 5px 3px #45d022;
+    margin: 18px;
+}
+.testominals h2{
+    font-family: 'Sansita Swashed', cursive;
+    font-size: 31px;
+    margin: 22px;
+}
+.testominals h6{
+   width: 700px;
+   margin: 28px;
+   font-size: 18px;
+    
+}
+.servicescont{
+    
+    position: relative;
+    top: 240px;
+    padding: 12px 115px;
+    background-color: rgba(44, 44, 43, 0.534);
+ 
+
+}
+.servicesimg img{
+    width: 550px;
+    height: 600px;
+    border-radius: 19px;
+    margin: 4px 22px;
+    box-shadow: 10px 10px 8px #0d630a8f;
+}
+.serviceshead{
+    margin-top: 32px;
+    margin-bottom: 72px;
+}
+.serviceshead h1{
+    font-family: 'Castoro', serif;
+    font-size: 31px;
+    font-weight: bold;
+    margin: 34px 12px;
+    text-shadow: 5px 5px 3px #45d022;
+  
+}
+.serviceshead h6{
+    font-family: 'Sansita Swashed', cursive;
+    font-size: 18px;
+
+}
+
+
+.footer{
+        position: relative;
+    top: 240px;
+}
+.contantus {
+    position: relative;
+    left: 287px;
+}
+.contantus input,textarea{
+display: flex;
+flex-direction: row;
+width: 300px;
+height: 50px;
+border-radius: 18%;
+font-family: 'Castoro', serif;
+font-size: 21px;
+font-weight: bold;
+margin-bottom: 12px;
+}
+.footer{
+    background-color: rgb(43, 43, 39);
+    color: white;
+} 
+
+.contantus h1{
+    font-family: 'Castoro', serif;
+    font-size: 45px;
+    margin-top: 22px;
+    font-weight: bold;
+    text-shadow: 5px 5px 3px #45d022;
+    margin-bottom: 22px;
+}
+.contantus textarea{
+    height: 130px;
+    border-radius: 12%;
+}
+#subbtn{
+    width: 150px;
+    border: 1px solid green;
+    margin-left: 2px;
+    background-color: grey;
+    color: white;
+    margin-top: 12px;
+    cursor: pointer;
+}
+#subbtn :hover{
+    background-color: rgba(21, 114, 21, 0.733);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.socialmedia {
+    display: flex;
+    position: absolute;
+    cursor: pointer;
+    margin-left: 14px;
+  }
+  .socialmedia i {
+    font-size: 42px;
+    padding: 14px;
+  
+  }
+  .socialmedia :hover {
+    font-size: 52px;
+    margin-left: 18px;
+  }
+  .socialmedia #fb {
+    color: blue;
+  }
+  .socialmedia #google {
+    color: rgb(241, 11, 11);
+  }
+  .socialmedia #twiter {
+    color: rgb(18, 166, 224);
+  }
+  .socialmedia #whatsapp {
+    color: rgb(14, 190, 43);
+  }
+  .socialmedia #youtube {
+    color: rgb(235, 18, 18);
+  }
